@@ -14,3 +14,5 @@ do
 done
 let NUM3=FACT/FACT2
 echo "El numero de posibles variaciones es $NUM3"
+# La complejidad del algoritmo en sí está definida por n*(n-r): n datos por el primero ciclo for multiplicados por los (n-r) datos del segundo ciclo for.
+# Con esto, en notación Big O el algoritmo es de complejidad O(n)
