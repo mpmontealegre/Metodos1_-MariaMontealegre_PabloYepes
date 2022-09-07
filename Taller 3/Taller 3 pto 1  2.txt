@@ -1,0 +1,3 @@
+1) El error asociado con Newthon-Rapthson es un error de truncamiento, es decir que hay un punto en que el computador no da el resultado real, sino una aproximación a este resultado, este error dependerá del paso (h).
+
+2) Hay varias cosas pequeñas que ayudan a la precision del método. Por ejemplo, el número de iteraciones a las que vaya el programa, la magnitud del "h" (la distancia entre puntos) y por último buscar límitar el error al mínimo posible.
