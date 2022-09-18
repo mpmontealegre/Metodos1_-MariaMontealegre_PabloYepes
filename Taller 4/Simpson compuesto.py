@@ -1,9 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
+# -*- coding: utf-8 -*-
 import sympy as sp
 
 A=0
@@ -33,11 +28,6 @@ sp.Integral(Poly, x)
 
 # se tiene 
 A
-display(A)
-
-
-# In[2]:
-
 
 # Expandiendo cada función cardinal a la forma
 
@@ -64,23 +54,11 @@ L_3 = (h/6)*(sp.integrate((t)*(t-1)*(t-2), (t, 0, 3)))
 # donde la integral finalmente resulta
 
 Integral = sp.simplify(f(xs[0])*L_0+f(xs[1])*L_1+f(xs[2])*L_2+f(xs[3])*L_3)
-display(Integral)
-
-
-# In[4]:
-
 
 # Así, tomando en cuenta que incialmente se tomaron los límites de integración como los puntos extremos (xs[0] y xs[3]),
 # los puntos intermedios xs[1] y xs[2] en términos de a, b y bajo la definción en la linea 40, son: 
 
 x_1=xs[0]+(((xs[3])-xs[0])/3)
 x_2=xs[0]+2*(((xs[3])-xs[0])/3)
-
-display(x_1,x_2)
-
-
-# In[ ]:
-
-
 
 
