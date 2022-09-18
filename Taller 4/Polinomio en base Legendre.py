@@ -49,5 +49,6 @@ g = s.args[2]
 
 p = sp.nsimplify(a), sp.nsimplify(b), sp.nsimplify(g)  
 
-# donde alpha es el coeficiente del primer polinomio, y así sucesivamente
+# donde el polinomio resulta de la forma alpha*Legendre[0]+beta*Legendre[1]+gamma*Legendre[2]
 
+pol = sp.nsimplify(a)*Legendre[0]+sp.nsimplify(b)*Legendre[1]+sp.nsimplify(g)*Legendre[2]
